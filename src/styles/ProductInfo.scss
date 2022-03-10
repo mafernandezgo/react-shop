@@ -1,0 +1,88 @@
+@import 'vars';
+
+
+// .cardProductInfo{
+//     width: 380px;
+//     height: 100vh;
+//     border: 1px solid blue
+// }
+
+.productInfoImg{
+    width: 100%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--very-light-pink);
+    margin: 2px;
+}
+
+.productMoreInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--md);
+    margin: 5px 0px 2px 0px;
+}
+
+.name-product{
+    margin: 2px 0px;
+    color: #797979;
+    font-size: var(--sm);
+}
+
+.description{
+    font-size: var(--md);
+    color: #797979;
+    line-height: 20px;
+}
+
+.add{
+    align-items: center;
+    background-color: var(--hospital-green);
+    border-radius: 10px;
+    border: none;
+    bottom: 20px;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    font-size: var(--md);
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    width: 350px;
+    position: absolute;
+}
+
+.addCartIcon{
+    margin: 0px;
+    width:40px;
+}
+
+@media(min-width:768px){
+    // .cardProductInfo{
+    //     position: absolute;
+    //     right: 0px;
+    //     top: 0px;
+    //     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.119789);
+    //     height: 100vh;
+    //     border: 1px solid blue
+    // }
+
+}

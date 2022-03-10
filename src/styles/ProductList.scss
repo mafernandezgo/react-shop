@@ -1,0 +1,13 @@
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 180px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media(min-width:768px){
+    .cards-container{
+        grid-template-columns: repeat(auto-fill, 220px);
+    }
+}

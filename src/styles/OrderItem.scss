@@ -1,0 +1,27 @@
+@import 'vars';
+
+.orderItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px ;
+    position: relative;
+}
+.oi-productImg{
+    width: 80px;
+    border-radius: 20%;
+}
+
+.oi-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--md);
+    margin: 5px 0px 2px 0px;
+}
+
+.oi-nameProduct{
+    margin: 2px 0px;
+    color: #797979;
+    font-size: var(--sm);
+    font-weight: 300;
+}

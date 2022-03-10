@@ -1,0 +1,39 @@
+@import 'vars';
+
+
+.productDetail{
+    position: absolute;
+    width: 100%;   
+    justify-content: center;
+    right: 0px;
+    bottom: 0px;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 12%);
+    height: calc(100vh - 50px);
+}
+
+.pd-close img{
+    position: absolute;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    border-radius: 50%;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+@media(min-width:768px){
+    .productDetail{
+        position: absolute;
+        width: 380px;   
+        justify-content: center;
+        right: 0px;
+        bottom: 0px;
+        box-shadow: 0px 0px 6px rgb(0 0 0 / 12%);
+        height: calc(100vh - 50px);
+    }
+}
+
+
+
+

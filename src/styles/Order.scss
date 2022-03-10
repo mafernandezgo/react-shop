@@ -1,0 +1,39 @@
+@import 'vars';
+
+.order{
+    width: 350px;
+    height: 50px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.order :nth-child(2){
+    display: flex;
+}
+
+.orderInfo p{
+    margin: 5px 20px;
+}
+
+.orderInfo :nth-child(1){
+    font-size:var(--md);
+    font-weight: 700;
+}
+
+.orderInfo :nth-child(2){
+    font-size:var(--sm);
+    color: var(--very-light-pink);
+}
+
+.orderValue{
+    margin-right: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.order img{
+    width: 10px;
+}

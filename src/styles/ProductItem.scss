@@ -1,0 +1,50 @@
+.productItem{
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    width: 170px;
+}
+.pi-img{
+    width: 170px;
+    border-radius: 15%;
+}
+
+.pi-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pi-price{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    font-size: var(--md);
+    margin: 10px 0px 2px 0px;
+}
+
+.pi-name{
+    margin: 2px 0px;
+    color: #797979;
+    font-size: var(--sm);
+}
+
+.category{
+    color: rgb(38, 218, 38);
+    margin: 0;
+}
+
+.pi-addCartIcon{
+    margin: 0px;
+    width:40px;
+}
+
+@media(min-width:768px){
+    .productItem{
+        margin: 16px;
+        width: 210px;
+    }
+
+    .pi-img{
+        width: 210px;
+    }
+}

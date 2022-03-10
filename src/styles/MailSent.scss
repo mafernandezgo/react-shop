@@ -1,0 +1,99 @@
+
+.mailSent{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    width: 100%;
+}
+
+.ms-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+.ms-container .logo{
+    margin: 0px auto 40px auto ;
+    width: 200px;
+}
+
+.title{
+    font-size: var(--lg);
+    text-align: center;
+}
+
+.parragraph{
+    text-align: center;
+    font-size: var(--md);
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.container-icon{
+    background-color: var(--text-input-field);
+    border-radius: 50%;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 30px auto 0px auto;
+    width: 150px;
+
+}
+.msgicon{
+    width: 80px;
+
+}
+.ms-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-button{
+    background-color: var(--hospital-green);
+    border-radius: 10px;
+    border: none;
+    color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--md);
+    height: 50px;
+    margin: 30px 0px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.ms-form p{
+    color:var(--very-light-pink);
+    font-size: var(--sm);
+    text-align: center;
+    font-weight: 300;
+}
+.ms-form .end{
+    color: var(--hospital-green);
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media(min-width:768px){
+
+    .ms-container{
+        width: 400px;
+    }
+
+    .ms-form{
+        position: relative;
+    }
+
+    .secondary-button{
+        bottom: 100px;
+        position: absolute;
+        width: 400px;
+    }
+
+}

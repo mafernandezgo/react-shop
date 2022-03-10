@@ -1,0 +1,120 @@
+@import 'vars';
+
+.login{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    width: 100%;
+}
+
+.loginContainer{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px
+}
+
+.loginContainer img{
+    margin: auto;
+    width: 200px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputbox.error .label{
+    color:rgb(170, 11, 11);
+}
+
+.inputbox.error .input{
+    border:1px solid rgb(170, 11, 11);
+}
+
+.loginForm .label{
+    color: var(--black);
+    font-size: var(--md);
+    margin: 25px 0px 6px 0px;
+}
+
+.loginForm .input{
+    background-color: var(--text-input-field);
+    border-radius: 5px;
+    border: none;
+    font-family:'Quicksand', sans-serif;
+    font-size: var(--sm);
+    font-weight: 300;
+    height: 30px;
+    padding: 6px;
+}
+
+.errormsg{
+    color:rgb(170, 11, 11);
+    font-weight:lighter;
+    display: none;
+}
+
+.login-button{
+    background-color: var(--hospital-green);
+    border-radius: 10px;
+    border: none;
+    color: var(--white);
+    font-size: var(--md);
+    height: 50px;
+    margin: 40px 0px;
+    width: auto;
+}
+
+.inputbox.error ~ .primary-button{
+    background-color: var(--very-light-pink);
+}
+
+.loginForm a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+.singup-button{
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 1px solid var(--hospital-green);
+    bottom: 30px;
+    box-sizing: border-box;
+    color: var(--hospital-green);
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--md);
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    top: 100px;
+    width: auto;
+    margin: 30px 0px
+}
+
+@media(min-width:768px){
+
+    .loginContainer{
+        width: 400px;
+    }
+
+    .form{
+        position: relative;
+    }
+
+    .secondary-button{
+        bottom: 50px;
+        width: 400px;
+        top: 0px;
+        margin-top: 20px;
+    }
+
+}
